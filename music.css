@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+/*font-family: 'Raleway', sans-serif;
+sogek40460@aosod.com
+sogek40460@aosod
+*/
+body{
+    background-color:rgb(247, 215, 220);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type:none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+nav ul li{
+    padding:0px 12px;
+}
+.logo img{
+    width: 47px;
+    padding: 0px 12px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    margin: 7px auto;
+    width: 57%;
+    padding: 30px;
+    background-image: url("headphones.jpg");
+}
+
+.bottom{
+    height: 70px;
+    background-color: black;
+    position:sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    color: white;
+    flex-direction: column;
+    
+    
+
+}
+
+#progressBar{
+    width: 75vw;
+    cursor:grab;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+   cursor: pointer;
+}
+
+.songItems img{
+    width: 70px;
+    height: 45px;
+    border-radius: 13px;
+}
+  
+.songItems{
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color:rgb(209, 20, 137);
+    width: 270px;
+    border-radius: 13px;
+    display: flex;
+    margin: 10px 10px;
+}
+.timeandlogo{
+    padding-right: 6px;
+}
+.time{
+    margin-right: 6px;
+}
+
+#gif{
+    opacity: 0;
+    transition: opacity 0.1s ease-in;
+
+}
